@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#sequencer {
+    display: grid;
+    grid-template-columns: repeat(16, 40px);
+    gap: 5px;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+.beat {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+.beat.active {
+    background-color: #4caf50;
+}
